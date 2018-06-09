@@ -1,0 +1,31 @@
+#menu {
+	background: gray;
+	position: fixed;
+	padding: 2px;
+	right: 0px;
+	z-index: 3;
+	float: right;
+}
+
+#info {
+	position: fixed;
+	padding: 2px;
+	left: 0px;
+	z-index: 3;
+}
+
+.fldata {
+	display:table-row;
+}
+
+.fldata div {
+	display:table-cell;
+	text-align: right;
+	padding: 5px;
+	vertical-align: middle;
+}
+
+.fldata textarea {
+	display:table-cell
+}
+

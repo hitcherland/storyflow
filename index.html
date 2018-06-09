@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>flowchart</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
+        <link rel="stylesheet" href="css/jquery.flowchart.css">
+        <link rel="stylesheet" href="css/flowchart.css">
+        <style>
+            body {
+                /*background-color: #333333;*/
+                margin: 0px;
+                overflow: hidden;
+								width: 100%;
+								min-height: 100%;
+            }
+						html {
+							height: 100%;
+						}
+        </style>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/jquery.panzoom.min.js"></script>
+        <script src="js/jquery.flowchart.js"></script>
+        <script src="js/flowchart.js"></script>
+    </head>
+    <body>
+				<div id='info'>
+					<input id="location" type="text" placeholder="location"/>
+					<input id="story" type="text" placeholder="story"/>
+				</div>
+				<div id='menu'>
+					<button id='add-choice'>add-choice</button>
+					<button id='add-text'>add-text</button>
+					<button id='delete'>delete</button>
+					<button id='save'>save</button>
+					<button id='load'>load</button>
+					<input type="file" id="selectFiles" value="Import" style="display:none"/>
+				</div>
+        <div id="main"></div>
+    </body>
+</html>
